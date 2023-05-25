@@ -10,7 +10,11 @@ To run the container run the following command
   docker run -i -t --name chat bow-chat
   
 To test if the app is working run two diffetent containers using the same image, in our case the bow chat image.
+
 For example:
-  docker run -i -t --name chat1 bow-chat
-  docker run -i -t --name chat2 bow-chat
+
+  docker run -i -t --name chat1 bow-chat 
+  
+  docker run -i -t --name chat2 bow-chat 
+  
 Write messages and check if it is working properly.
